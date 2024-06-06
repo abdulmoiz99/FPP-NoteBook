@@ -7,5 +7,9 @@ public class Test {
 
         System.out.println(professor.CalculateSalary());
         System.out.println(secretary.CalculateSalary());
+
+        if(professor instanceof Professor){
+            System.out.println("Yes");
+        }
     }
 }
